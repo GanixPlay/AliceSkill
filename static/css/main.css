@@ -1,0 +1,35 @@
+.container1{
+    font-size: 20px;
+}
+.card{
+    padding: 10px;
+    margin: 10px;
+}
+h3{
+    padding: 10px;
+    margin: 10px;
+}
+#carouselExampleCaptions{
+    margin: 10px;
+}
+#catalog{
+    margin: 20px;
+    padding: 10px;
+    align-self: center;
+}
+.sale{
+    margin-right: 10px;
+    text-decoration: line-through;
+    color: rgb(102, 102, 102);
+}
+.row{
+    margin: 10px;
+    padding: 10px;
+}
+body{
+    background-color: rgb(50, 50, 50);
+}
+a{
+    padding: 10px;
+    margin: 10px;
+}
