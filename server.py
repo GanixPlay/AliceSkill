@@ -1,22 +1,16 @@
-import logging
-from telegram.ext import Application, MessageHandler, filters
-from config import TOKEN
+from flask import Flask, render_template
 
-logging.basicConfig(
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.DEBUG
-)
-
-logger = logging.getLogger(__name__)
+app = Flask(__name__)
 
 
-async def echo(update, context):
-    await update.message.reply_text(f'Я получил сообщение {update.message.text}')
+@app.route('/')
+def index():
+    return render_template('alogritmika.html')
 
 
 def main():
-    app = Application.builder().token(TOKEN).build()
-    app.add_handler(MessageHandler(filters.TEXT, echo))
-    logger.info('Бот работает')
-    app.run_polling()
+    app.run()
 
-main()
+
+if __name__ == '__main__':
+    app.run('127.0.0.1', 8080)
