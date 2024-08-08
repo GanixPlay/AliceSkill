@@ -1,0 +1,714 @@
+.div {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  white-space: nowrap;
+  max-width: 100%;
+}
+.div1 {
+  height: 3.125rem;
+  width: 10.938rem;
+  position: absolute;
+  margin: 0 !important;
+  right: -1.125rem;
+  bottom: -5.081rem;
+  font-size: 2.5rem;
+  font-family: "Marck Script";
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  transform: rotate(-15deg);
+  transform-origin: 0 0;
+  z-index: 1;
+}
+.invitation-subtitle,
+.invitation-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.invitation-subtitle {
+  flex: 1;
+  position: relative;
+}
+.invitation-title {
+  align-self: stretch;
+  padding: 0 2.062rem 3.687rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 3rem;
+  color: #000;
+  font-family: "Poiret One";
+}
+.frame-child {
+  border: 0;
+  background-color: #d9d9d9;
+  height: 13.25rem;
+  width: auto;
+  outline: 0;
+  flex: 1;
+  position: relative;
+}
+.root-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2.25rem 2.312rem 2.312rem;
+}
+.div2 {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.couple-names {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0.812rem 0.875rem;
+  font-family: "Marck Script";
+}
+.empty {
+  position: relative;
+}
+.empty-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3rem 0 2.5rem;
+}
+.frame-item {
+  align-self: stretch;
+  height: 0.375rem;
+  position: relative;
+  border-top: 6px solid #4a4646;
+  box-sizing: border-box;
+}
+.frame-parent,
+.root-child {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent {
+  width: 19.506rem;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.root-child {
+  flex-direction: row;
+  padding: 0 2.5rem 3.5rem 2.562rem;
+  text-align: right;
+  font-size: 3rem;
+  color: #000;
+  font-family: "El Messiri";
+}
+.div3 {
+  position: relative;
+}
+.guests-title {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.312rem 0 1.375rem;
+  text-align: right;
+  font-size: 2.688rem;
+}
+.p,
+.p1,
+.p2 {
+  margin: 0;
+}
+.date-shape,
+.div4,
+.div5 {
+  align-self: stretch;
+  position: relative;
+}
+.date-shape {
+  width: 9.313rem;
+  background-color: #d9d9d9;
+}
+.div5 {
+  z-index: 1;
+}
+.p3,
+.p4 {
+  margin: 0;
+}
+.p4 {
+  font-weight: 600;
+}
+.div6 {
+  position: relative;
+  z-index: 2;
+}
+.date-container,
+.date-word,
+.weekday {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.weekday {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 2.375rem;
+  font-size: 1.5rem;
+  font-family: "El Messiri";
+}
+.date-container,
+.date-word {
+  flex: 1;
+}
+.date-word {
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-left: -1.25rem;
+}
+.date-container {
+  align-self: stretch;
+  flex-direction: row;
+}
+.div7,
+.div8 {
+  position: relative;
+}
+.div7 {
+  align-self: stretch;
+  z-index: 1;
+}
+.div8 {
+  display: inline-block;
+  min-width: 4.25rem;
+}
+.place {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 2.187rem 0 2.25rem;
+  font-size: 1.5rem;
+  font-family: "El Messiri";
+}
+.location-word {
+  width: 8.688rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 2.875rem;
+}
+.location-shape {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: #d9d9d9;
+  z-index: 1;
+}
+.location-elements {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 0.25rem;
+}
+.date-location-container,
+.location-container,
+.location-elements {
+  flex: 1;
+  display: flex;
+  align-items: flex-center;
+  justify-content: flex-center;
+}
+.location-container {
+  width: 18.875rem;
+  flex-direction: row;
+  padding: 0 0.312rem;
+  box-sizing: border-box;
+}
+.date-location-container {
+  align-self: stretch;
+  flex-direction: column;
+}
+.date-location {
+  width: 22.938rem;
+  height: 22.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 1.562rem 4rem;
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: 2.5rem;
+  font-family: "Marck Script";
+}
+.frame-inner {
+  height: 0.375rem;
+  flex: 1;
+  position: relative;
+  border-top: 6px solid #4a4646;
+  box-sizing: border-box;
+}
+.event-description-inner {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 2.062rem 0 2.187rem;
+}
+.div9,
+.event-description {
+  display: flex;
+  align-items: flex-center;
+  justify-content: flex-center;
+}
+.event-description {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0.437rem 0.25rem 0;
+  box-sizing: border-box;
+  gap: 2.875rem;
+  max-width: 100%;
+  font-size: 2.25rem;
+}
+.div9 {
+  margin-left: -0.5rem;
+  margin-bottom: 3.25rem;
+  width: 27.375rem;
+  position: relative;
+  font-size: 3rem;
+  justify-content: center;
+  white-space: nowrap;
+  max-width: 112%;
+  flex-shrink: 0;
+}
+.ceremony-shape {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.ceremony {
+  width: 8.125rem;
+  height: 8.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0.375rem;
+  box-sizing: border-box;
+}
+.p5,
+.p6 {
+  margin: 0;
+}
+.div10 {
+  position: relative;
+}
+.wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0.312rem 0 0;
+}
+.cake-shape {
+  width: 8.125rem;
+  flex: 1;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.ceremony-word {
+  align-self: stretch;
+  height: 15.313rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 0.937rem;
+}
+.p7,
+.p8 {
+  margin: 0;
+}
+.div11 {
+  width: 4.688rem;
+  position: relative;
+  display: inline-block;
+}
+.ceremony-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 1.875rem;
+  min-width: 6.563rem;
+  flex-shrink: 0;
+}
+.line-div {
+  height: 33.875rem;
+  width: 0.063rem;
+  position: relative;
+  border-right: 1px solid #000;
+  box-sizing: border-box;
+}
+.p10,
+.p9 {
+  margin: 0;
+}
+.div12,
+.reception-shape {
+  position: relative;
+}
+.reception-shape {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.p11,
+.p12 {
+  margin: 0;
+}
+.div13 {
+  position: relative;
+}
+.reception-shape1 {
+  align-self: stretch;
+  height: 8.125rem;
+  position: relative;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+.reception,
+.reception-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.reception-elements {
+  width: 9.375rem;
+  height: 24.375rem;
+  padding: 0 1.25rem 0 0;
+  box-sizing: border-box;
+  gap: 0.937rem;
+}
+.reception {
+  flex: 1;
+  gap: 3.125rem;
+  min-width: 6.875rem;
+  flex-shrink: 0;
+  text-align: left;
+}
+.frame-group,
+.program-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-group {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.687rem;
+}
+.program-container {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0.812rem 2.375rem 1.687rem;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: 2rem;
+  color: #000;
+  font-family: "El Messiri";
+}
+.frame-child1 {
+  height: 0.375rem;
+  flex: 1;
+  position: relative;
+  border-top: 6px solid #4a4646;
+  box-sizing: border-box;
+}
+.frame-div {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 2.187rem 0.312rem 2.5rem;
+}
+.div14 {
+  position: relative;
+}
+.dress-code-title {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0.875rem 0 1.125rem;
+}
+.p13,
+.p14 {
+  margin: 0;
+}
+.span {
+  font-weight: 600;
+}
+.span,
+.span1 {
+  font-family: "El Messiri";
+}
+.p15 {
+  margin: 0;
+}
+.div15 {
+  align-self: stretch;
+  position: relative;
+  font-size: 2rem;
+  text-align: center;
+}
+.dress-code,
+.dress-code-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.dress-code-container {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.437rem;
+}
+.dress-code {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 3rem 0.25rem 2.937rem;
+  text-align: right;
+  font-size: 3rem;
+  color: #000;
+  font-family: "El Messiri";
+}
+.shapes {
+  top: 0;
+  left: 0;
+  background-color: #cff0d6;
+}
+.shapes,
+.shapes1,
+.shapes2,
+.shapes3,
+.shapes4 {
+  position: absolute;
+  box-shadow: 9px 2px 4px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  width: 8.125rem;
+  height: 8.125rem;
+}
+.shapes1 {
+  top: 0;
+  left: 13.688rem;
+  background-color: #fbd0d0;
+}
+.shapes2,
+.shapes3,
+.shapes4 {
+  top: 11.5rem;
+}
+.shapes2 {
+  left: 0;
+  background-color: #dae7dd;
+}
+.shapes3,
+.shapes4 {
+  left: 13.688rem;
+  background-color: #ecf9ef;
+}
+.shapes4 {
+  top: 5.75rem;
+  left: 7.063rem;
+  box-shadow: 5px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #e9d1c9;
+  z-index: 1;
+}
+.ladies-shapes {
+  height: 19.625rem;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.ladies-shapes-wrapper {
+  width: 22.063rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0.125rem;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.ladies {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.ul {
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 1.333rem;
+}
+.p16,
+.ul,
+.ul1 {
+  margin: 0;
+}
+.ul1 {
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 1.333rem;
+}
+.txt {
+  width: 100%;
+}
+.div16 {
+  width: 9.563rem;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  flex-shrink: 0;
+}
+.ladies-description,
+.ladies-parent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.ladies-description {
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: left;
+  font-size: 1.5rem;
+  font-family: "El Messiri";
+}
+.ladies-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.frame-child2,
+.ladies-title {
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.ladies-title {
+  margin-left: -12.938rem;
+  width: 12.813rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.281rem 0 0;
+}
+.frame-child2 {
+  width: 0.063rem;
+  flex: 1;
+  position: relative;
+  border-right: 1px solid #000;
+  z-index: 1;
+}
+.ladies-container-inner {
+  height: 19.156rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.281rem 0 0;
+  box-sizing: border-box;
+}
+.gentlemens {
+  align-self: stretch;
+  height: 4.375rem;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+}
+.ul2 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 1.333rem;
+}
+.div17 {
+  width: 9.438rem;
+  position: relative;
+  font-size: 1.5rem;
+  font-family: "El Messiri";
+  text-align: left;
+  display: flex;
+  align-items: flex-end;
+  z-index: 2;
+}
+.gentlemen-container,
+.ladies-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.gentlemen-container {
+  width: 10.813rem;
+  flex-direction: column;
+  gap: 0.15rem;
+  flex-shrink: 0;
+}
+.ladies-container {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 12.312rem;
+  gap: 0.031rem;
+}
+.frame-container,
+.root {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  color: #000;
+}
+.frame-container {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 1.437rem 0 0;
+  gap: 3.781rem;
+  max-width: 100%;
+  text-align: right;
+  font-size: 3rem;
+  font-family: "Great Vibes";
+}
+.root {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  padding: 3.937rem 0 263.062rem;
+  gap: 2.875rem;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: 2.813rem;
+  font-family: "El Messiri";
+}
