@@ -1,16 +1,22 @@
-from flask import Flask, render_template
+from flask import Flask, request, render_template
 
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def index():
-    return render_template('alogritmika.html')
+    if request.method == 'GET':
+        return render_template('index.html')
+    else:
+        print(request.form.get('name'))
+        print(request.form.get('radio'))
+        print(request.form.getlist('alco'))
+        return render_template('index.html')
 
 
 def main():
-    app.run()
+    app.run('127.0.0.1', 8080)
 
 
 if __name__ == '__main__':
-    app.run('127.0.0.1', 8080)
+    main()
